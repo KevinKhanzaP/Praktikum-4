@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Selektor Nama Tag </title>
+    <script src="jquery-3.6.0.min.js"></script> <!-- import jQuery -->
+    <script type="text/javascript">
+      $(document).ready(function(){
+      //mendefinisikan function ready pada dokumen dengan jQuery
+      $("div").addClass("biru");});
+      //mendefinisikan function addClass pada div dengan jQuery
+    </script>
+    <style type="text/css">
+      .biru { /* deskripsi class biru */
+      color: blue; /* mengubah warna menjadi biru */
+      font-weight: bold; /* mengatur font menjadi bold */
+      }
+    </style>
+  </head>
+  <body>
+    <div> <!--deklarasi div -->
+      <p>paragraf petama</p> <!--menuliskan kalimat -->
+    </div>
+    <div> <!--deklarasi div -->
+      <ul> <!--deklarasi untuk membuat list -->
+        <li>item 1</li> <!--menuliskan kalimat dalam list -->
+        <li>item 2</li> <!--menuliskan kalimat dalam list -->
+        <li>item 3</li> <!--menuliskan kalimat dalam list -->
+      </ul>
+    </div>
+  </body>
+</html>

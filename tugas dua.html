@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- inisialisasi bahasa inggris -->
+  <head>
+    <title>Form Button</title> <!-- judul -->
+  </head>
+  <body>
+  <script language="Javascript"> //inisialisasi Javascript
+    function ubahWarnaLB() { //deklarasi function ubahWarna
+      document.getElementById("button1").style.background="red";
+    }
+    function ubahWarnaLD() { //deklarasi function ubahWarna
+      document.getElementById("button2").style.background="blue";
+    }
+  </script>
+  <h1>Klik 2x pada setiap kotak untuk mengubah warnanya</h1> <!-- tulisan bertipe header 1 -->
+  <form> <!-- membuat form untuk inputan data -->
+    <input type="button" id="button1" value="" style="padding: 50px; margin: 10px;
+            background-color: yellow" ondblclick="ubahWarnaLB()">
+    <!-- membuat button yang berubah warna saat di double click -->
+    <input type="button" id="button2" value="" style="padding: 50px; margin: 10px;
+            background-color: yellow" ondblclick="ubahWarnaLD()">
+    <!-- membuat button yang berubah warna saat di double click -->
+    <input type="button" id="button1" value="" style="padding: 50px; margin: 10px;
+            background-color: yellow" ondblclick="ubahWarnaLB()">
+    <!-- membuat button yang berubah warna saat di double click -->
+    <input type="button" id="button2" value="" style="padding: 50px; margin: 10px;
+            background-color: yellow" ondblclick="ubahWarnaLD()">
+    <!-- membuat button yang berubah warna saat di double click -->
+  </form>
+  </body>
+</html>

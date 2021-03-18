@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Menggunakan jQuery </title>
+    <script src="jquery-3.6.0.min.js"></script> <!-- import jQuery -->
+    <script type="text/javascript">
+      $(document).ready(function(){
+      //mendefenisikan function ready pada dokumen dengan jQuery
+      $(".sembunyi").click(function() {$("#foto").hide("slow") });
+      //mendefenisikan function click pada class sembunyi serta id foto dengan jQuery
+      $(".tampil").click(function() {$("#foto").show("slow") });
+      //mendefenisikan function click pada class tampil serta id foto dengan jQuery
+    });
+    </script>
+  </head>
+  <body>
+    <button class="sembunyi">sembunyikan</button> <!-- membuat tombol sembunyi -->
+    <button class="tampil">tampilkan</button> <!-- membuat tombol tampil -->
+    <p><img id="foto" src="logo.png"></p> <!-- menampilkan gambar -->
+  </body>
+</html>

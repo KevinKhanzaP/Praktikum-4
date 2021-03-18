@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Selektor id </title>
+    <script src="jquery-3.6.0.min.js"></script> <!-- import jQuery -->
+    <script type="text/javascript">
+      $(document).ready(function(){
+      //mendefinisikan function ready pada dokumen dengan jQuery
+      $("#daftar").addClass("merahkuning");});
+      //mendefinisikan function addClass pada id daftar dengan jQuery
+    </script>
+    <style type="text/css">
+      .merahkuning { /*memberi style pada elemen terpilih*/
+      color: orange; /*mengatur warna menjadi oranye*/
+      font-weight: bold; /*mengatur font menjadi bold*/
+      background-color: green; /*mengatur warna bg menjadi hijau*/
+      padding: 3px; /*mengatur padding*/
+      }
+    </style>
+  </head>
+  <body>
+    <div> <!--deklarasi div-->
+      <p>paragraf pertama</p> <!--menuliskan kalimat-->
+    </div>
+    <div>
+      <ul id="daftar"> <!--deklarasi pembuatan list dengan id-->
+        <li>item 1</li> <!--menuliskan kalimat dalam list-->
+        <li>item 2</li> <!--menuliskan kalimat dalam list-->
+        <li>item 3</li> <!--menuliskan kalimat dalam list-->
+      </ul>
+    </div>
+  </body>
+</html>
